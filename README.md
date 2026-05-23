@@ -55,7 +55,7 @@ Filtro por Categoria
 # Melhor Vendedor
 =ÍNDICE(Calculos!G2:G5;CORRESP(MÁXIMO(Calculos!H2:H5);Calculos!H2:H5;0))
 
- Como Reproduzir
+#Como Reproduzir
 Requisitos
 
 Excel Online (gratuito via office.com) ou Excel Desktop
