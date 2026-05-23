@@ -1,5 +1,4 @@
 # Desafio-de-Projeto-Dashboard-de-Vendas-Dio-
-# Desafio-de-Projeto-Dashboard-de-Vendas-Dio-
 Dashboard de Vendas — Excel Online
 Dashboard de vendas construído do zero no Excel Online, sem uso de macros ou ferramentas pagas. O projeto organiza dados brutos de vendas em visualizações interativas com métricas automáticas.
 
