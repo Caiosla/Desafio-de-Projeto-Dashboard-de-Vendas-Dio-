@@ -5,7 +5,7 @@ Dashboard de vendas construído do zero no Excel Online, sem uso de macros ou fe
 
 ---
 
-## 🗂️ Estrutura do Projeto
+##  Estrutura do Projeto
 
 O arquivo Excel é dividido em 3 abas:
 
@@ -17,7 +17,7 @@ O arquivo Excel é dividido em 3 abas:
 
 ---
 
-## 📋 Dados Utilizados
+##  Dados Utilizados
 
 Os dados são fictícios e foram criados manualmente para fins de demonstração.
 
@@ -41,7 +41,7 @@ Os dados são fictícios e foram criados manualmente para fins de demonstração
 
 ---
 
-## 📈 Componentes do Dashboard
+##  Componentes do Dashboard
 
 ### Cards de Métricas
 - **Total de Vendas** — soma geral de todas as vendas
@@ -59,9 +59,9 @@ Os dados são fictícios e foram criados manualmente para fins de demonstração
 
 ---
 
-## 🔧 Fórmulas Utilizadas
+##  Fórmulas Utilizadas
 
-```excel
+```
 # Total de Vendas
 =Calculos!H6
 
@@ -69,12 +69,12 @@ Os dados são fictícios e foram criados manualmente para fins de demonstração
 =Calculos!H6/CONT.NÚM(Dados!E2:E21)
 
 # Melhor Vendedor
-=ÍNDICE(Calculos!A2:A5;CORRESP(MÁXIMO(Calculos!H2:H5);Calculos!H2:H5;0))
+=ÍNDICE(Calculos!G2:G5;CORRESP(MÁXIMO(Calculos!H2:H5);Calculos!H2:H5;0))
 ```
 
 ---
 
-## 🚀 Como Reproduzir
+##  Como Reproduzir
 
 ### Requisitos
 - Excel Online (gratuito via [office.com](https://www.office.com)) ou Excel Desktop
@@ -89,9 +89,9 @@ Os dados são fictícios e foram criados manualmente para fins de demonstração
    - A coluna Total usa a fórmula `=Quantidade*PreçoUnit`
 
 3. **Na aba Calculos**, crie 3 Tabelas Dinâmicas apontando para a aba Dados:
-   - Tabela 1: Vendedor × Total
-   - Tabela 2: Produto × Total
-   - Tabela 3: Data × Total
+   - Tabela 1: Vendedor × Valor das Vendas
+   - Tabela 2: Produto × Valor dos Produtos
+   - Tabela 3: Data × Valor arrecadado do dia
 
 4. **Adicione os Slicers** clicando numa Tabela Dinâmica na aba Calculos → **Análise → Inserir Segmentação de Dados**
    - Crie um Slicer de Vendedor e um de Categoria
@@ -122,6 +122,6 @@ Os dados são fictícios e foram criados manualmente para fins de demonstração
 
 ---
 
-## 👤 Autor
+##
 
 Projeto desenvolvido como exercício prático de criação de dashboards no Excel.
